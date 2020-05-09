@@ -17,7 +17,7 @@ const renderComponent = (AsyncFunc) => {
   return (
     <Layout style={{ minHeight: "100vh" }}>
       <Link to="/" style={{ margin: "auto" }}>
-        <img alt="logo" src="/images/logo.png" className="logo" />
+        <img alt="logo" src="/images/logo_white.png" className="logo" />
       </Link>
       <Container AsyncFunc={AsyncFunc} />
     </Layout>

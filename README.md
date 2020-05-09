@@ -2,6 +2,9 @@
 
 Este projeto lista cards da Marvel possibilitando busca por nome e detalhamento.
 
+## Screenshots
+![nav](./docs/nav.gif)
+
 ## Bibliotecas utilizadas
 
 - axios - Usada para acessar as APIs.
@@ -48,6 +51,8 @@ npm install
 ```
 yarn test
 ```
+Você verá algo como:
+![testes](./docs/testes.png)
 
 ## Rodando o projeto
 
@@ -59,7 +64,7 @@ yarn start
 
 - [ReactJS](https://pt-br.reactjs.org/) - Biblioteca Front-end.
 - [Ant Design](https://ant.design/) - React UI library utilizado.
-- [API Marvel](hhttps://developer.marvel.com/docs) - API da marvel.
+- [API Marvel](https://developer.marvel.com/docs) - API da marvel.
 
 ## Autor
 
