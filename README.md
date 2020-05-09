@@ -1,6 +1,8 @@
 # Marvel Cards
 
-Este projeto lista cards da Marvel possibilitando busca por nome e detalhamento.
+Este projeto é um web app que lista cards da Marvel possibilitando busca por nome e detalha cada personagem mostrando as Séries vinculadas a ele.
+
+Você pode ver o projeto rodando em modo produção aqui: [https://marvelchallenge.herokuapp.com/](https://marvelchallenge.herokuapp.com/)
 
 ## Screenshots
 ![nav](./docs/nav.gif)
