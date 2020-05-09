@@ -13,7 +13,7 @@ Você pode ver o projeto rodando em modo produção aqui: [https://marvelchallen
 - react-helmet - gerenciamento de SEO.
 - moment - Lidar com datas e/ou timestamps.
 - react-loadable - Carregamento de páginas assincronas.
-- redux - Gerenciamento de status a nível global.
+- redux - Gerenciamento de state a nível global.
 - redux-persist - Midleware para gerenciar o redux.
 - react-router-dom - Gerenciar Rotas e navegação em nossa aplicação.
 - react-highlight-words - Melhor experiência visual na busca marcando a palavra buscada nos resultados.
