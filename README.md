@@ -51,7 +51,8 @@ npm install
 ```
 yarn test
 ```
-Você verá algo como:
+### Você verá algo como:
+
 ![testes](./docs/testes.png)
 
 ## Rodando o projeto
