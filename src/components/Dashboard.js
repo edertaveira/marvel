@@ -55,7 +55,7 @@ const Dashboard = (props) => {
     <div className="dashboard">
       <Seo title="Dashboard" />
       <Row>
-        <Col span={8} offset={8}>
+        <Col xs={{ span: 24 }} md={{ span: 8, offset: 8 }} lg={{ span: 8, offset: 8 }} >
           <Input.Search
             allowClear={true}
             defaultValue={props.searchValue}

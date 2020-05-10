@@ -5,6 +5,7 @@ import Seo from "../common/Seo";
 import { LoadingOutlined } from "@ant-design/icons";
 import axios from "axios";
 import { endpoint } from "../common/constants/endpoint";
+import { isBrowser } from "react-device-detect";
 
 const Details = (props) => {
   const [card, setCard] = useState(null);
@@ -39,8 +40,22 @@ const Details = (props) => {
         <PageHeader onBack={() => window.history.back()} className="site-page-header" title={card && card.name} />
         {card && (
           <Row gutter={16} className="container-internal">
-            <Col lg={8}>
-              <Affix offsetTop={10}>
+            <Col lg={8} md={8}>
+              {isBrowser ? (
+                <Affix offsetTop={10}>
+                  <Card
+                    bordered={false}
+                    hoverable
+                    cover={
+                      <div className="container-cover">
+                        <img alt={card.name} src={`${card.thumbnail.path}.${card.thumbnail.extension}`} />
+                      </div>
+                    }
+                  >
+                    <Card.Meta title={card.name} />
+                  </Card>
+                </Affix>
+              ) : (
                 <Card
                   bordered={false}
                   hoverable
@@ -52,9 +67,9 @@ const Details = (props) => {
                 >
                   <Card.Meta title={card.name} />
                 </Card>
-              </Affix>
+              )}
             </Col>
-            <Col lg={16}>
+            <Col lg={16} md={16} >
               {card.description && (
                 <React.Fragment>
                   <Divider orientation="left">Description</Divider>
