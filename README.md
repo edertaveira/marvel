@@ -5,7 +5,14 @@ Este projeto é um web app que lista cards da Marvel possibilitando busca por no
 Você pode ver o projeto rodando em modo produção aqui: [https://marvelchallenge.herokuapp.com/](https://marvelchallenge.herokuapp.com/)
 
 ## Screenshots
+
+### Browser Perspectiva: 
+![mobile](./docs/mobile.gif)
+
+### Mobile Perspectiva: 
 ![nav](./docs/nav.gif)
+
+
 
 ## Bibliotecas utilizadas
 
