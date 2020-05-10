@@ -7,10 +7,10 @@ Você pode ver o projeto rodando em modo produção aqui: [https://marvelchallen
 ## Screenshots
 
 ### Browser Perspectiva: 
-![mobile](./docs/mobile.gif)
+![nav](./docs/nav.gif)
 
 ### Mobile Perspectiva: 
-![nav](./docs/nav.gif)
+![mobile](./docs/mobile.gif)
 
 
 
